@@ -85,6 +85,10 @@
                 icons: {primary: 'ui-icon-trash'},
                 text: showIconText
             });
+            node.find('.cancel').button({
+                icons: {primary: 'ui-icon-cancel'},
+                text: showIconText
+            });
             if (node.hasClass('fade')) {
                 node.hide();
             }
